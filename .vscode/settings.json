@@ -1,5 +1,6 @@
 {
     "php.suggest.basic": true,
     "php.validate.executablePath": "c:/laragon/bin/php/php-7.4.21-Win32-vc15-x64/php.exe",
-    "php.debug.executablePath":  "c:/laragon/bin/php/php-7.4.21-Win32-vc15-x64/phpdbg.exe"
+    "php.debug.executablePath": "c:/laragon/bin/php/php-7.4.21-Win32-vc15-x64/phpdbg.exe",
+    "liveServer.settings.multiRootWorkspaceName": ".2024CPS"
 }
