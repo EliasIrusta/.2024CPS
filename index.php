@@ -16,7 +16,7 @@
 multiple
 */
 //tipos de datos
-
+/* 
 echo TRUE;
 echo '<br>';
 //booleanos
@@ -122,14 +122,14 @@ $resultado= 7-4+($numero_1*$numero_2);
 echo $resultado;
 echo '<br>';
 #operadores de asignacion
-/* 
-asignar =
-sumar y asignar +=
-restar y asignar -=
-mult y asig *=
-dividir /=
-concatenar y asignar .=     ej: $a.="es el valor de A"
-*/ 
+
+//asignar =
+//sumar y asignar +=
+//restar y asignar -=
+//mult y asig *=
+//dividir /=
+// concatenar y asignar .=     ej: $a.="es el valor de A"
+ 
 
 $numero4=5;
 $numero4+=5;
@@ -164,7 +164,11 @@ var_dump($valor_1!="7");//no tiene en cuenta el tipo de dato
 // != no compara tipo de dato
 // !== compara tipo de dato
 
-
+*/
+#operadores logicos
+$valor_1=7;
+ç
+var_dump()
 
 
 
