@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
 
-<h1>prueba</h1>
-<?php
-//abro codigo de php
-//comentario de php
-/*
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <title>Document</title>
+</head>
+
+<body>
+
+
+        <h1>prueba</h1>
+        <?php
+        //abro codigo de php
+        //comentario de php
+        /*
 multiple
 */
-//tipos de datos
-/* 
+        //tipos de datos
+        /* 
 echo TRUE;
 echo '<br>';
 //booleanos
@@ -165,16 +167,43 @@ var_dump($valor_1!="7");//no tiene en cuenta el tipo de dato
 // !== compara tipo de dato
 
 */
-#operadores logicos
-$valor_1=7;
-ç
-var_dump()
+        #operadores logicos
+        $valor_1 = 7;
+        $valor_2 = 2;
+        var_dump($valor_1 == 7 && 2 > 3); //>=
+        echo '<br>';
+        #operadores de incremento.. decremento..
+        echo $valor_1;
+        echo '<br>';
+        $valor_1++;
+        echo $valor_1;
+        echo '<br>';
+
+        #condicionales video 16
+        #video 17 ternario
+        (2>7) ? $total=10*7 : $total=10*8;
+        echo $total;
+        echo '<br>';
+        $total=(9>7) ? $total=10*7 : $total=10*8;
+
+        echo $total;
+
+        //ejercicio de ternario
+        
 
 
 
 
 
-//cierro codigo php
-?>
+        //cierro codigo php
+        ?>
+
+        <div>
+                <h4>condicionales en medio del html</h4>
+                <?php if (9 >= 8) : ?>
+                        <h4>expresion verdadera</h4>
+                <?php endif; ?>
+        </div>
 </body>
+
 </html>
