@@ -11,6 +11,6 @@ echo '<br>';
 echo number_format($cantidad_1,1);
 echo '<br>';
 //parametro custom
-//(cantidad,decimales, sep_decimal, sep millar);
+//(parametro, cantidad de decimales, sep_decimal, sep millar);
 echo number_format($cantidad_2,2,",",".");
 echo '<br>';
