@@ -22,10 +22,10 @@ session_start();
     <form action="login.php" method="POST">
 
         <label>Usuario</label>
-        <input type="text" name="usuario" >
+        <input type="text" name="usuario" pattern="[a-zA-Z0-9$@.-]{3,10}"maxlength="30"> //[limita el tipo de caracteres] {limita la cantidad de caracteres}
         <br>
         <label>clave</label>
-        <input type="password" name="clave">
+        <input type="password" name="clave" pattern="[a-zA-Z]{3,10}"maxlength="10">
         <br><br>
         <button type="submit">Login</button>
 
