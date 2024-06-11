@@ -31,9 +31,9 @@
     echo "<br>";
     echo "hola ".$_SESSION['nombre']."";
     echo "<br>";
-    echo "hola ".$_SESSION['apellido']."";
+    echo " ".$_SESSION['apellido']."";
     echo "<br>";
-    echo "hola ".$_SESSION['pais']."";
+    echo " ".$_SESSION['pais']."";
     ?>
     <br>
     <br>

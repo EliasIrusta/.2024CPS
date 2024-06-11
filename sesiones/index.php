@@ -22,7 +22,7 @@ session_start();
     <form action="login.php" method="POST">
 
         <label>Usuario</label>
-        <input type="text" name="usuario">
+        <input type="text" name="usuario" >
         <br>
         <label>clave</label>
         <input type="password" name="clave">
